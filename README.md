@@ -30,8 +30,8 @@ The user of this script is solely responsible for any ethical and legal implicat
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/[your_username]/[your_repo_name].git
-    cd [your_repo_name]
+    git clone https://github.com/ambulung/voicecloning
+    cd voicecloning
     ```
 
 2.  **Create and activate a virtual environment (recommended):**

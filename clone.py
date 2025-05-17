@@ -41,12 +41,7 @@ if not os.path.exists(reference_audio_path):
     except Exception as e:
         print(f"Could not create dummy audio: {e}. Please provide a real audio file.")
         exit()
-# --- End Sanity Check ---
 
-
-# 2. Initialize TTS model
-# XTTSv2 is a multilingual model that's good for voice cloning.
-# It will download the model files on the first run (can take a while).
 print("Initializing TTS model... This might take a while on the first run to download.")
 try:
     # Using XTTSv2 model

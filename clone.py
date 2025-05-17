@@ -10,7 +10,7 @@ if device == "cuda":
 
 # 1. Define paths
 reference_audio_path = "input.wav" # <--- IMPORTANT: REPLACE THIS
-text_to_speak = "We passed upon the stairs. We spoke of was and when. Although I wasn't there. He said I was his friend. Which came as a surprise. I spoke into his eyes thought you died alone. A long long time ago"
+text_to_speak = "I am a bot."
 output_audio_path = "cloned_voice_output.wav"
 
 # --- Sanity Check for reference audio ---

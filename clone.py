@@ -51,6 +51,7 @@ try:
     tts = TTS(model_name=model_name, progress_bar=True).to(device)
     print("TTS model loaded successfully.")
 except Exception as e:
+    print(f"Error initializing TTS model: {e}")
     print("Make sure you have a stable internet connection if this is the first run.")
     print("If issues persist, check the Coqui TTS GitHub issues page.")
     exit()
